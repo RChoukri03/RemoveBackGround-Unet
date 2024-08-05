@@ -21,6 +21,18 @@ ClearML is used in this project for several reasons:
 3. **Artifact Management**: ClearML allows for seamless uploading and downloading of model artifacts, ensuring that models and related files are organized and easily accessible.
 4. **Visualization**: It offers powerful visualization tools for monitoring training progress, including loss curves, accuracy plots, and more.
 
+## Generate Masks from COCO Annotations
+
+The script genDataset.py in utils generates masks from COCO annotations. It processes images and their corresponding annotations to create segmentation masks, which can then be used for training.
+
+### Overview
+
+The script performs the following steps:
+1. **Setup**: Initializes directories and paths for storing images and masks.
+2. **Batch Processing**: Iterates through batches of images and their annotations.
+3. **Mask Generation**: Generates masks based on the annotations and saves them along with the source images.
+4. **Prediction Preparation**: Transfers some images for prediction if no annotations are found.
+
 ## Setup Environment
 
 To set up the environment, you need to build the Docker image:
