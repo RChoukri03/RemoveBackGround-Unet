@@ -1,0 +1,4 @@
+images/*
+logs/*
+*.cpyt*
+weights/*

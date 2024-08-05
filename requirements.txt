@@ -1,0 +1,11 @@
+numpy==1.23.5
+opencv-python==4.8.1.78
+tensorflow-model-optimization==0.7.5
+Pillow==9.1.0
+onnx==1.15.0
+onnxconverter-common==1.14.0
+albumentations==1.3.1
+keras-unet-collection==0.1.13
+clearml==1.13.2
+tf2onnx==1.16.0
+onnxmltools==1.12.0
